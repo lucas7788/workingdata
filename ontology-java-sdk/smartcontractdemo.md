@@ -77,3 +77,98 @@ ontSdk.getConnect().sendRawTransaction(tx);
 Thread.sleep(6000);
 System.out.println(ontSdk.getConnect().getSmartCodeEvent(tx.hash().toHexString()));
 ```
+
+using Ont.SmartContract.Framework;
+using Ont.SmartContract.Framework.Services.Ont;
+using Ont.SmartContract.Framework.Services.System;
+using System;
+using System.ComponentModel;
+using System.Numerics;
+using Helper = Ont.SmartContract.Framework.Helper;
+
+namespace TestContract
+{
+    public class TestContract : SmartContract
+    {
+
+        public delegate object NEP5Contract(string method, object[] args);
+
+        public static Object Main(string operation, params object[] args)
+        {
+            if (operation == "Transfer")
+            {
+                if (args.Length != 3) return false;
+                byte[] from = (byte[])args[0];
+                byte[] to = (byte[])args[1];
+                object[] param = (object[])args[2];
+                return Transfer(from, to, param);
+            }
+            // 设置合约Hash
+            if (operation == "SetContractHash")
+            {
+                if (args.Length != 2) return false;
+                string contractKey = (string)args[0];
+                byte[] hash = (byte[])args[1];
+                return SetContractHash(contractKey, hash);
+            }
+            // 获取指定商户的合约hash
+            if (operation == "GetContractHash")
+            {
+                if (args.Length != 1) return false;
+                string contractKey = (string)args[0];
+                return GetContractHash(contractKey);
+            }
+            return false;
+        }
+
+        public static bool Transfer(byte[] from, byte[] to, object[] param)
+        {
+            StorageContext context = Storage.CurrentContext;
+
+            if (from.Length != 20 || to.Length != 20) return false;
+
+            for (int i = 0; i < param.Length; i++)
+            {
+
+                TransferPair transfer = (TransferPair)param[i];
+                byte[] hash = GetContractHash(transfer.Key);
+                if (hash.Length != 20 || transfer.Amount < 0) throw new Exception();
+                if (!TransferNEP5(from, to, hash, transfer.Amount)) throw new Exception();
+
+            }
+            return true;
+        }
+
+        private static bool TransferNEP5(byte[] from, byte[] to, byte[] contractHash, BigInteger amount)
+        {
+            // Transfer token
+            var args = new object[] { from, to, amount };
+            var contract = (NEP5Contract)contractHash.ToDelegate();
+
+            if (!(bool)contract("transfer", args)) return false;
+            return true;
+        }
+
+        public static bool SetContractHash(string key, byte[] hash)
+        {
+            if (key == "" || key.Length == 0) return false;
+            if (hash.Length != 20) return false;
+
+            StorageContext context = Storage.CurrentContext;
+            Storage.Put(context, key, hash);
+            return true;
+        }
+
+        public static byte[] GetContractHash(string key)
+        {
+            return Storage.Get(Storage.CurrentContext, key);
+        }
+
+
+        struct TransferPair
+        {
+            public string Key;
+            public ulong Amount;
+        }
+    }
+}
