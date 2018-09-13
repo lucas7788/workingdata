@@ -78,6 +78,8 @@ Thread.sleep(6000);
 System.out.println(ontSdk.getConnect().getSmartCodeEvent(tx.hash().toHexString()));
 ```
 
+## 示例代码
+```
 using Ont.SmartContract.Framework;
 using Ont.SmartContract.Framework.Services.Ont;
 using Ont.SmartContract.Framework.Services.System;
@@ -172,3 +174,4 @@ namespace TestContract
         }
     }
 }
+```
