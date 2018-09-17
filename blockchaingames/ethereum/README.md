@@ -79,8 +79,11 @@ Truffle 的盒子Boxs装有很多非常实用的项目样板，可以让你忽�
 ### 3.3 Embark框架
 Embark 让开发者开发和部署以太坊dapp更容易，Embark当前集成了EVM区块链、去中心化存储IPFS、去中心化通信平台（Whisper和Orbit），支持swarm部署。
 Embark框架链接 https://github.com/embark-framework/embark
+
 Embark框架特点
+
 区块链（Ethereum）:
+
 * 自动化的部署合约，方便js代码中调用。Embark可以自动监听合约的变化并重新部署变化后的合约。
 * 合约可以通过js的promise调用
 * 使用Javascript使用合约进行测试驱动开发。
@@ -89,11 +92,14 @@ Embark框架特点
 * 轻松管理相互依赖合同的复杂系统
 
 去中心化存储（IPFS）:
+
 * 通过EmbarkJS轻松存储和检索DApp上的数据。 包括上传和检索文件。
 * 将完整的应用程序部署到IPFS或Swarm。
 去中心化通信（Whisper, Orbit）:
 * 通过Whisper或Orbit轻松通过P2P渠道发送/接收消息。
+
 web 技术:
+
 * 与任何网络技术集成，包括React，Foundation等。
 * 使用您想要的任何构建管道或工具，包括grunt，gulp和webpack。
 
