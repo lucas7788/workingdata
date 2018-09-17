@@ -54,7 +54,7 @@
 * BlockApps BlockApps提供了一些简洁的API来帮助你查看钱包余额、编写交易、读取合约状态等
 * Embark Embark是另一个流行的开发框架，帮你轻松地构建、测试和部署DApp
 * Zeppelin Zeppelin库用来编写安全的合约
-### 3.2 truffle
+### 3.2 Truffle框架
 Truffle是一个世界级的开发环境，测试框架，以太坊的资源管理通道，致力于让以太坊上的开发变得简单，Truffle有以下：
 * 内置的智能合约编译，链接，部署和二进制文件的管理
 * 快速开发下的自动合约测试
@@ -76,7 +76,7 @@ Ganache是一个运行在个人桌面上的以太坊开发者的个人区块链�
 #### unbox
 Truffle 的盒子Boxs装有很多非常实用的项目样板，可以让你忽略一些环境配置问题，从而可以集中与开发你自己的DApp的业务唯一性。除此之外，Truffle Boxes能够容纳其他有用的组件、Solidity合约或者库，前后端视图等等。所有这些都是一个完整的实例Dapp程序。都可以下载下来逐一研究，寻找适合自己公司目前业务模型的组件。
 
-### 3.3 Embark
+### 3.3 Embark框架
 Embark 让开发者开发和部署以太坊dapp更容易，Embark当前集成了EVM区块链、去中心化存储IPFS、去中心化通信平台（Whisper和Orbit），支持swarm部署。
 Embark框架链接 https://github.com/embark-framework/embark
 Embark框架特点
