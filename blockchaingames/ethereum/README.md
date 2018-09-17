@@ -10,25 +10,25 @@
 
 ## 以太坊基本信息
 
-项目git仓库地址: https://github.com/ethereum/go-ethereum
-官方实现以太坊协议实现语言: golang
-共识算法:
-性能:
-治理模型:
-Star人数: 20710
-Fork人数: 7094
-contributors人数: 330
-releases版本数:139
-支持的客户端: go语言实现的Mist客户端，C++语言实现的Alethzero客户端, Python语言开发的Pythereum，Nodejs开发的Node-Ethereum，Java语言开发的Ethereumj
-智能合约开发语言: solidity
+* 项目git仓库地址: https://github.com/ethereum/go-ethereum
+* 官方实现以太坊协议实现语言: golang
+* 共识算法:
+* 性能:
+* 治理模型:
+* Star人数: 20710
+* Fork人数: 7094
+* contributors人数: 330
+* releases版本数:139
+* 支持的客户端: go语言实现的Mist客户端，C++语言实现的Alethzero客户端, Python语言开发的Pythereum，Nodejs开发的Node-Ethereum，Java语言开发的Ethereumj
+* 智能合约开发语言: solidity
 以下结果来自以太坊社区调查报告:
 全球开发者分布:
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/developer.png)
 北美洲占43%，欧洲占40%，亚洲占10%，大洋洲占5%，南美洲占2%
-以太坊社区透明度:良好
-以太坊财务透明度:良好
-以太坊在社会中的实际应用是否明确:较为明确
-以太坊开发进度:以太坊开发者会及时公布开发进度（通过写博客或者交流的方式）
+* 以太坊社区透明度:良好
+* 以太坊财务透明度:良好
+* 以太坊在社会中的实际应用是否明确:较为明确
+* 以太坊开发进度:以太坊开发者会及时公布开发进度（通过写博客或者交流的方式）
 
 ## 以太坊架构设计
 以太坊架构设计图：
