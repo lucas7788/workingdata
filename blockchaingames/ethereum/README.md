@@ -1,15 +1,13 @@
 # 以太坊调研报告
 
 * [1. 以太坊基本信息](#1.以太坊基本信息)
-* [2. 以太坊架构设计](#2.以太坊架构设计)
-* [3. 以太坊dapp开发工具](#3.以太坊dapp开发工具)
-   * [3.1 以太坊开发工具](#3.1以太坊开发工具)
-   * [3.2 Truffle框架](#3.2Truffle框架)
-   * [3.3 Embark框架](#3.3Embark框架)
-* [4. 以太坊dapp](#4.以太坊dapp)
-* [5. 总结](#5.总结)
-* [6. 参考链接](#6.参考链接)
-
+* [2. 以太坊dapp开发工具](#2.以太坊dapp开发工具)
+   * [2.1 以太坊开发工具](#2.1以太坊开发工具)
+   * [2.2 Truffle框架](#2.2Truffle框架)
+   * [2.3 Embark框架](#2.3Embark框架)
+* [3. 以太坊dapp](#3.以太坊dapp)
+* [4. 总结](#4.总结)
+* [5. 参考链接](#5.参考链接)
 
 ## 1.以太坊基本信息
 
@@ -33,14 +31,8 @@
 * 以太坊在社会中的实际应用是否明确:较为明确
 * 以太坊开发进度:以太坊开发者会及时公布开发进度（通过写博客或者交流的方式）
 
-## 2.以太坊架构设计
-以太坊架构设计图：
-![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/ethereum.jpg)
-
-以太坊最上层的是DApp。它通过Web3.js和智能合约层进行交换。所有的智能合约都运行在EVM（以太坊虚拟机）上，并会用到RPC的调用。在EVM和RPC下面是以太坊的四大核心内容，包括：blockChain, 共识算法，挖矿以及网络层。除了DApp外，其他的所有部分都在以太坊的客户端里，目前最流行的以太坊客户端就是Geth（Go-Ethereum）
-
-## 3. 以太坊dapp开发工具
-### 3.1 以太坊开发工具
+## 2. 以太坊dapp开发工具
+### 2.1 以太坊开发工具
 * Mist Mist的功能包括保存以太币、发送交易、部署合约等。你可以用它实现与区块链平台或测试网络
 的交互。当你需要进行快速交易时超级有用
 * Geth Geth除了实现Mist的全部功能，还包含一些额外的重要特性，例如提供RPC API接口给应用程序以便你的应用可以通过它连接如以太坊网络。
@@ -54,7 +46,7 @@
 * BlockApps BlockApps提供了一些简洁的API来帮助你查看钱包余额、编写交易、读取合约状态等
 * Embark Embark是另一个流行的开发框架，帮你轻松地构建、测试和部署DApp
 * Zeppelin Zeppelin库用来编写安全的合约
-### 3.2 Truffle框架
+### 2.2 Truffle框架
 Truffle是一个世界级的开发环境，测试框架，以太坊的资源管理通道，致力于让以太坊上的开发变得简单，Truffle有以下：
 * 内置的智能合约编译，链接，部署和二进制文件的管理
 * 快速开发下的自动合约测试
@@ -76,7 +68,7 @@ Ganache是一个运行在个人桌面上的以太坊开发者的个人区块链�
 #### unbox
 Truffle 的盒子Boxs装有很多非常实用的项目样板，可以让你忽略一些环境配置问题，从而可以集中与开发你自己的DApp的业务唯一性。除此之外，Truffle Boxes能够容纳其他有用的组件、Solidity合约或者库，前后端视图等等。所有这些都是一个完整的实例Dapp程序。都可以下载下来逐一研究，寻找适合自己公司目前业务模型的组件。
 
-### 3.3 Embark框架
+### 2.3 Embark框架
 Embark 让开发者开发和部署以太坊dapp更容易，Embark当前集成了EVM区块链、去中心化存储IPFS、去中心化通信平台（Whisper和Orbit），支持swarm部署。
 Embark框架链接 https://github.com/embark-framework/embark
 
@@ -104,7 +96,7 @@ web 技术:
 * 使用您想要的任何构建管道或工具，包括grunt，gulp和webpack。
 
 
-## 4. 以太坊dapp
+## 3. 以太坊dapp
 ### 以太坊dapp基本信息：
 * dapp总数: 775，游戏类411,占比54%，竞猜类共152个，占比20%，交易市场占比4%，其他占比22%
 * dapp占比图
@@ -119,7 +111,7 @@ web 技术:
 * 竞猜类: Fomo3D，FairDapp, Zethr
 * 其他: Kyber,Ox协议，Livepeer,以太坊域名服务
 
-## 5. 总结
+## 4. 总结
 
 ### ontology目前的劣势分析:
 
@@ -137,7 +129,7 @@ web 技术:
 
 
 
-## 参考：
+## 5. 参考：
 https://github.com/ethereum
 http://www.wanbizu.com/xinbi/201503284872.html
 https://www.jianshu.com/p/53fcdd255ef7
