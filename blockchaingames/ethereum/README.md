@@ -23,7 +23,7 @@ releases版本数:139
 智能合约开发语言: solidity
 以下结果来自以太坊社区调查报告:
 全球开发者分布:
-![avatar](./developer.png)
+![avatar](./https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/developer.png)
 北美洲占43%，欧洲占40%，亚洲占10%，大洋洲占5%，南美洲占2%
 以太坊社区透明度:良好
 以太坊财务透明度:良好
@@ -32,7 +32,7 @@ releases版本数:139
 
 ## 以太坊架构设计
 以太坊架构设计图：
-![avatar](./ethereum.png)
+![avatar](./https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/ethereum.jpg)
 
 ## 以太坊dapp开发工具
 以太坊开发工具
@@ -96,6 +96,8 @@ web 技术:
 ## 以太坊dapp
 
 dapp总数: 775，游戏类411,占比54%，竞猜类共152个，占比20%，交易市场占比4%，其他占比22%
+dapp占比图
+![avatar]https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/dapp.jpg
 累计交易笔数: 3亿
 累计交易金额: 59亿ETH
 用户数: 3587万人
