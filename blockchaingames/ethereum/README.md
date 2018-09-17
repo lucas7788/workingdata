@@ -114,11 +114,13 @@ web 技术:
 * 其他: Kyber,Ox协议，Livepeer,以太坊域名服务
 
 ## 5. 总结
-ontology目前的劣势分析:
+
+###ontology目前的劣势分析:
 * ontology代码贡献者仅有42人，没有激发社区开发的力量参与进来
 * ontology dapp开发工具较少，还没有一个dapp开发工具集成了IPFS等数据存储的开发工具，导致dapp开发不便
 * 基于ontology的应用较少，还没有有影响力的实际项目运行在ontolog上
-ontology的优势分析:
+
+###ontology的优势分析:
 * 采用VBFT共识算法的ontology的性能能达到8000/s以上
 * ontology 完善的治理框架防止节点作恶
 * ontology 完善的去中心化数字身份系统，为需要去中心化信任的应用场景提供基础设施
