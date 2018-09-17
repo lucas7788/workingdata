@@ -99,7 +99,7 @@ web 技术:
 
 
 ## 4. 以太坊dapp
-
+### 以太坊dapp基本信息：
 * dapp总数: 775，游戏类411,占比54%，竞猜类共152个，占比20%，交易市场占比4%，其他占比22%
 * dapp占比图
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/dapp.jpg)
@@ -107,7 +107,7 @@ web 技术:
 * 累计交易金额: 59亿ETH
 * 用户数: 3587万人
 * 日均活跃人数: 20万人
-dapp分类
+### dapp分类
 * 游戏类: 以太小精灵，加密猫，
 * 交易市场类: IDEX,Delta,Bancor,PoWH 3D
 * 竞猜类: Fomo3D，FairDapp, Zethr
