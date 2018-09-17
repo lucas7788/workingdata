@@ -4,7 +4,7 @@
 https://github.com/lucas7788/fomo3d_clone
 
 ## 代码框架图
-![avatar](./contractuml.png)
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/fomo3d/contractuml.png)
 
 通过上图，我们可以分析出：
 
