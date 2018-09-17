@@ -3,6 +3,9 @@
 * [1. 以太坊基本信息](#1.以太坊基本信息)
 * [2. 以太坊架构设计](#2.以太坊架构设计)
 * [3. 以太坊dapp开发工具](#3.以太坊dapp开发工具)
+   * [3.1 以太坊开发工具](#3.1 以太坊开发工具)
+   * [3.2 Truffle框架](#3.2 Truffle框架)
+   * [3.3 Embark框架](#3.3 Embark框架)
 * [4. 以太坊dapp](#4.以太坊dapp)
 * [5. 总结](#5.总结)
 * [6. 参考链接](#6.参考链接)
@@ -33,6 +36,8 @@
 ## 以太坊架构设计
 以太坊架构设计图：
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/ethereum.jpg)
+
+以太坊最上层的是DApp。它通过Web3.js和智能合约层进行交换。所有的智能合约都运行在EVM（以太坊虚拟机）上，并会用到RPC的调用。在EVM和RPC下面是以太坊的四大核心内容，包括：blockChain, 共识算法，挖矿以及网络层。除了DApp外，其他的所有部分都在以太坊的客户端里，目前最流行的以太坊客户端就是Geth（Go-Ethereum）
 
 ## 以太坊dapp开发工具
 以太坊开发工具
@@ -109,6 +114,18 @@ dapp占比图
 其他: Kyber,Ox协议，Livepeer,以太坊域名服务
 
 ## 总结
+ontology目前的劣势分析:
+* ontology代码贡献者仅有42人，没有激发社区开发的力量参与进来
+* ontology dapp开发工具较少，还没有一个dapp开发工具集成了IPFS等数据存储的开发工具，导致dapp开发不便
+* 基于ontology的应用较少，还没有有影响力的实际项目运行在ontolog上
+ontology的优势分析:
+* 采用VBFT共识算法的ontology的性能能达到8000/s以上
+* ontology 完善的治理框架防止节点作恶
+* ontology 完善的去中心化数字身份系统，为需要去中心化信任的应用场景提供基础设施
+* ontology 完善的数字存证系统
+* ontology 独有的权限管理系统，方便开发者设计合约函数的权限管理
+
+
 
 参考：
 https://github.com/ethereum
