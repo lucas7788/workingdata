@@ -222,5 +222,23 @@ The embark object then provides an api to extend different functionality of emba
 
 14. Using Embark with Grunt
 
+15. dapp demo
+
+How to create a Token Factory with Ethereum
+https://embark.status.im/tutorials/token_factory_1.html
+
+# Plugins
+
+## embark-bamboo
+Plugin to add Bamboo support to embark
+
+## embark-solc
+Uses the command line Solidity Compiler for light-speed compile times
+
+## embark-solium
+
+https://embark.status.im/plugins/
+
+
 # 参考链接：
 https://embark.readthedocs.io/en/2.6.6/usage.html
