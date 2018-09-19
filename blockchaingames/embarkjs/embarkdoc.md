@@ -236,6 +236,7 @@ https://embark.status.im/tutorials/token_factory_1.html
 
 ## embark-bamboo
 Plugin to add Bamboo support to embark
+https://github.com/pirapira/bamboo
 
 ## embark-solc
 Uses the command line Solidity Compiler for light-speed compile times
