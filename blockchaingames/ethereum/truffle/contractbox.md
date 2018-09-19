@@ -1,13 +1,15 @@
 # Token互换合约
 
-互换合约实现的功能是：对于符合nep标准的Token实现互换
+互换合约实现的功能是：对于符合nep5标准的Token实现互换
 
 ## 用法
 
 1. 调用SetContractHash方法将TokenA和TokenB的合约hash保存到互换合约中
-2. 设置TokenA和TokenB的互换比例
-3. 将TokenA发行的代币一部分打给互换合约地址，将TokenB发行的代币一部分打给互换合约地址（也就是各种代币在互换合约中预存一部分Token，用于用户兑换）
-4. 持有TokenA的用户调用Exchange方法兑换TokenB
+2. 调用GetContractHash方法查询TokenA和TokenB的合约地址信息
+3. 调用SetTokenBase方法设置TokenA和TokenB的互换比例
+4. 调用GetTokenBase查询互换比例
+5. 将TokenA发行的代币一部分打给互换合约地址，将TokenB发行的代币一部分打给互换合约地址（也就是各种代币在互换合约中预存一部分Token，用于用户兑换）
+6. 持有TokenA的用户调用Exchange方法兑换TokenB
 
 ## 合约源代码
 ```
