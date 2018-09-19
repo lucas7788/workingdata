@@ -8,8 +8,10 @@
 2. 调用GetContractHash方法查询TokenA和TokenB的合约地址信息
 3. 调用SetTokenBase方法设置TokenA和TokenB的互换比例
 4. 调用GetTokenBase查询互换比例
-5. 将TokenA发行的代币一部分打给互换合约地址，将TokenB发行的代币一部分打给互换合约地址（也就是各种代币在互换合约中预存一部分Token，用于用户兑换）
-6. 持有TokenA的用户调用Exchange方法兑换TokenB
+5. 调用SetFeeRate设置手续费率
+6. 调用GetFeeRate查询手续费率
+7. 将TokenA发行的代币一部分打给互换合约地址，将TokenB发行的代币一部分打给互换合约地址（也就是各种代币在互换合约中预存一部分Token，用于用户兑换）
+8. 持有TokenA的用户调用Exchange方法兑换TokenB
 
 ## 合约源代码
 ```
@@ -62,6 +64,19 @@ namespace ExchangeContract
                 string symbol = (string)args[0];
                 return GetTokenBase(symbol);
             }
+            // 设置手续费百分比率，例如5%则percentage=5
+            if (operation == "SetFeeRate")
+            {
+                if (args.Length != 1) return false;
+                ulong percentage = (ulong)args[0];
+                return SetFeeRate(percentage);
+            }
+
+            // 获取当前手续费比率（百分比）
+            if (operation == "GetFeeRate")
+            {
+                return GetFeeRate();
+            }
             // 设置合约Hash
             if (operation == "SetContractHash")
             {
@@ -79,7 +94,6 @@ namespace ExchangeContract
             }
             return false;
         }
-
         // from应该是兑换目的token发起方的账户，to 是目的token的回收账户
         // fromSymbol是发起方token的符号，比如TokenA,"tokena", toSymbol同理
         // value 是兑换token的数量
@@ -104,6 +118,7 @@ namespace ExchangeContract
                 Runtime.Notify("Invalid token convertion base.");
                 return false;
             }
+
             ulong feeRate = (ulong)Storage.Get(context, "feeRate").AsBigInteger();
 
             if (feeRate < 0)
@@ -111,6 +126,7 @@ namespace ExchangeContract
                 Runtime.Notify("Invalid fee rate.");
                 return false;
             }
+
             ulong toValue = (value * toBase / fromBase) * (100 - feeRate) / 100;
 
             if (!TransferNEP5(from, to, fromHash, value)) throw new Exception();
@@ -133,6 +149,20 @@ namespace ExchangeContract
         public static BigInteger GetTokenBase(string symbol)
         {
             return Storage.Get(Storage.CurrentContext, basePrefix.Concat(symbol.AsByteArray())).AsBigInteger();
+        }
+
+        public static bool SetFeeRate(ulong percentage)
+        {
+            if (percentage < 0 || percentage >= 100) return false;
+            if (!Runtime.CheckWitness(admin)) return false;
+
+            Storage.Put(Storage.CurrentContext, "feeRate", percentage);
+            return true;
+        }
+
+        public static BigInteger GetFeeRate()
+        {
+            return Storage.Get(Storage.CurrentContext, "feeRate").AsBigInteger();
         }
 
         public static bool SetContractHash(string key, byte[] hash)
