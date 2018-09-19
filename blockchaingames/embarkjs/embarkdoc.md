@@ -25,6 +25,8 @@ embark run
 
 4. embark提供界面功能
 
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/embarkjs/dashboard.jpg)
+
 The dashboard will tell you the state of your contracts, the enviroment you are using, and what embark is doing at the moment.
 
 * available services
