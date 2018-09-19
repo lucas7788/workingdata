@@ -14,6 +14,6 @@ def DestroyContract():
     return True
 
 
-def Migrate(code):
+def Migrate(code: bytearray):
     Contract.Migrate(code, True, "", "", "", "", "")
     return True
