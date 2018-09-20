@@ -201,19 +201,37 @@ Remix IDE：
 
 ## 4. 总结
 
-### ontology目前的劣势分析:
 
-* ontology代码贡献者仅有42人，没有激发社区开发的力量参与进来
-* ontology dapp开发工具较少，还没有一个dapp开发工具集成了IPFS等数据存储的开发工具，导致dapp开发不便
-* 基于ontology的应用较少，还没有有影响力的实际项目运行在ontolog上
+### 社区活跃度问题
+ontology代码贡献者仅有42人，没有激发社区开发的力量参与进来，
+### ontology dapp开发工具问题
 
-### ontology的优势分析:
+建议推出一个类似于truffle的dapp开发框架，最好拥有的功能是：
+1. 有效的组织js、html、合约代码
+2. 最好有类似于embark的图形化界面，实时监测合约状态，当合约代码有变动的时候能够自动化部署，并且方便和链交互
+3. dapp开发框架集成目前比较流行的js框架 比如：reactjs,vue.js等
+4. 应该提供dapp项目数据存储解决方案，IPFS或者数据库等
+5. 应该多提供dapp 案例demo，可以通过社区开发者的力量贡献demo
 
-* 采用VBFT共识算法的ontology的性能能达到8000/s以上
-* ontology 完善的治理框架防止节点作恶
-* ontology 完善的去中心化数字身份系统，为需要去中心化信任的应用场景提供基础设施
-* ontology 完善的数字存证系统
-* ontology 独有的权限管理系统，方便开发者设计合约函数的权限管理
+### ontology chrome 钱包问题
+
+目前的ontology chrome插件还不支持Token余额功能，以及Token交易记录查询等
+
+### one blockchain 工具
+
+ontology 缺少像testrpc 和 ganache这样的启动链的工具，终端形式或者图形化界面
+
+### 智能合约开发IDE
+目前smartx的功能还是比较有限
+1. smartx报错 余额不够问题（亟待解决）
+2. smartx debug功能（亟待解决）
+3. smartx 可以增加类似于remix的代码分析功能
+4. 建议集成通信功能
+
+
+
+
+
 
 
 
