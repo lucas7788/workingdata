@@ -153,6 +153,7 @@ embark 提供的图形化界面
 ### 2.4 智能合约IDE
 
 Remix IDE：
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/remix.jpg)
 
 
 ## 3. 以太坊dapp
