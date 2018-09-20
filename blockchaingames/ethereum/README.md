@@ -96,6 +96,9 @@ web 技术:
 * 与任何网络技术集成，包括React，Foundation等。
 * 使用您想要的任何构建管道或工具，包括grunt，gulp和webpack。
 
+embark 提供的图形化界面
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/dashboard.jpg)
+
 
 ## 3. 以太坊dapp
 ### 以太坊dapp基本信息：
