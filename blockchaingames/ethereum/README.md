@@ -59,7 +59,7 @@ metamask add Token界面
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask.png)
 
 metamask 点击交易记录跳转的页面
-![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask.png)
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask3.png)
 
 * Web3.js  Web3.js是web应用和区块链交互的桥梁
 * Truffle 提供了快速创建、编译、部署和测试区块链应用的构建模块
@@ -69,6 +69,9 @@ metamask 点击交易记录跳转的页面
 * BlockApps BlockApps提供了一些简洁的API来帮助你查看钱包余额、编写交易、读取合约状态等
 * Embark Embark是另一个流行的开发框架，帮你轻松地构建、测试和部署DApp
 * Zeppelin Zeppelin库用来编写安全的合约(类似于Java中的jar包，在合约中可以引入智能合约语言开发的工具库)
+OpenZeppelin 项目结构图：
+
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/zeppelin.jpg)
 
 ### 2.2 Truffle框架
 
