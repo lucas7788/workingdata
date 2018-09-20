@@ -45,7 +45,7 @@
 * ether.camp 微软提供的在线全功能solidity集成开发环境
 * BlockApps BlockApps提供了一些简洁的API来帮助你查看钱包余额、编写交易、读取合约状态等
 * Embark Embark是另一个流行的开发框架，帮你轻松地构建、测试和部署DApp
-* Zeppelin Zeppelin库用来编写安全的合约
+* Zeppelin Zeppelin库用来编写安全的合约(类似于Java中的jar包，在合约中可以引入其他合约实现的函数)
 ### 2.2 Truffle框架
 Truffle是一个世界级的开发环境，测试框架，以太坊的资源管理通道，致力于让以太坊上的开发变得简单，Truffle有以下特点：
 * 内置的智能合约编译，链接，部署和二进制文件的管理
@@ -66,7 +66,7 @@ Truffle是一个世界级的开发环境，测试框架，以太坊的资源管�
 * WebThree(cpp-ethereum)
 #### ganache-cli
 Ganache是一个运行在个人桌面上的以太坊开发者的个人区块链。Ganache是Truffle Suite的一部分，通过把合约和交易放到前面来简化dapp的开发。通过使用Ganache，你可以快速的看到你的应用是如何影响区块链的。其中细节：如你的账户、余额、合约及Gas成本。你也可以调整Ganache的采矿控制来更好的适用你的应用。
-#### unbox
+#### box
 Truffle 的盒子Boxs装有很多非常实用的项目样板，可以让你忽略一些环境配置问题，从而可以集中与开发你自己的DApp的业务唯一性。除此之外，Truffle Boxes能够容纳其他有用的组件、Solidity合约或者库，前后端视图等等。所有这些都是一个完整的实例Dapp程序。都可以下载下来逐一研究，寻找适合自己公司目前业务模型的组件。
 
 ### 2.3 Embark框架
