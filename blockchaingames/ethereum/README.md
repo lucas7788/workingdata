@@ -76,6 +76,13 @@ Truffle是一个世界级的开发环境，测试框架，以太坊的资源管�
 
 适用于开发的客户端:
 * EtherumJS TestRPC 当开发基于Truffle的应用时，我们推荐使用EthereumJS TestRPC。它是一个完整的在内存中的区块链仅仅存在于你开发的设备上。它在执行交易时是实时返回，而不等待默认的出块时间，这样你可以快速验证你新写的代码，当出现错误时，也能即时反馈给你。它同时还是一个支持自动化测试的功能强大的客户端。Truffle充分利用它的特性，能将测试运行时间提速近90%。
+testrpc 一键式启动节点服务：
+```
+$ testrpc
+```
+testrpc 运行界面图：
+
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/testrpc.jpg)
 
 适用于正式发布的客户端:
 * Geth (go-ethereum)
@@ -84,6 +91,16 @@ Truffle是一个世界级的开发环境，测试框架，以太坊的资源管�
 Ganache是一个运行在个人桌面上的以太坊开发者的个人区块链。Ganache是Truffle Suite的一部分，通过把合约和交易放到前面来简化dapp的开发。通过使用Ganache，你可以快速的看到你的应用是如何影响区块链的。其中细节：如你的账户、余额、合约及Gas成本。你也可以调整Ganache的采矿控制来更好的适用你的应用。
 #### box
 Truffle 的盒子Boxs装有很多非常实用的项目样板，可以让你忽略一些环境配置问题，从而可以集中与开发你自己的DApp的业务唯一性。除此之外，Truffle Boxes能够容纳其他有用的组件、Solidity合约或者库，前后端视图等等。所有这些都是一个完整的实例Dapp程序。都可以下载下来逐一研究，寻找适合自己公司目前业务模型的组件。
+
+### drizzle
+Drizzle是前端库的集合，使得编写dapp前端更容易，更可预测。 Drizzle的核心是基于Redux商店，因此您可以访问Redux周围的壮观开发工具。 我们负责同步您的合同数据，交易数据等。
+* drizzle 基于Redux store（前端的状态管理工具），可以很方便的同步合约中的数据、交易数据等
+* 封装web3，可以方便的使用web3中的方法
+* 方便和reducers、sagas集成
+* 封装流行的js库例如reactjs，方便合约数据的展示
+
+详情请见：
+https://github.com/trufflesuite/drizzle
 
 ### 2.3 Embark框架
 Embark 让开发者开发和部署以太坊dapp更容易，Embark当前集成了EVM区块链、去中心化存储IPFS、去中心化通信平台（Whisper和Orbit），支持swarm部署。
