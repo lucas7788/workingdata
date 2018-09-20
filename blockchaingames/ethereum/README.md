@@ -53,13 +53,13 @@ Mist 浏览器界面：
 * Parity Parity是一个用Rust开发的以太坊节点软件，开发者是前以太坊CTO：Gavin Wood博士。Parity 的特点就是速度块、轻量化。Parity 还在本机的8080 端口提供了一个Web界面供你访问。
 * MetaMask Chrome浏览器插件可以极大简化对你的DApp（去中心化应用：Decentralized Application）的访问
 metamask 主界面
-![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask2.png)
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask2.jpg)
 
 metamask add Token界面
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask.png)
 
 metamask 点击交易记录跳转的页面
-![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask3.png)
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask3.jpg)
 
 * Web3.js  Web3.js是web应用和区块链交互的桥梁
 * Truffle 提供了快速创建、编译、部署和测试区块链应用的构建模块
