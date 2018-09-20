@@ -38,11 +38,17 @@
 * Mist Mist的功能包括保存以太币、发送交易、部署合约等。你可以用它实现与区块链平台或测试网络
 的交互。当你需要进行快速交易时超级有用
 Mist 主界面:
-![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/Mist1.png)
+
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/Mist1.jpg)
+
 Mist 开发界面：
+
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/Mist2.png)
+
 Mist 浏览器界面：
+
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/Mist3.png)
+
 * Geth Geth除了实现Mist的全部功能，还包含一些额外的重要特性，例如提供RPC API接口给应用程序以便你的应用可以通过它连接如以太坊网络。
 * Parity Parity是一个用Rust开发的以太坊节点软件，开发者是前以太坊CTO：Gavin Wood博士。Parity 的特点就是速度块、轻量化。Parity 还在本机的8080 端口提供了一个Web界面供你访问。
 * MetaMask Chrome浏览器插件可以极大简化对你的DApp（去中心化应用：Decentralized Application）的访问
@@ -110,6 +116,9 @@ embark 提供的图形化界面
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/dashboard.jpg)
 
 ### 2.4 智能合约IDE
+
+Remix IDE：
+
 
 ## 3. 以太坊dapp
 ### 以太坊dapp基本信息：
