@@ -75,6 +75,16 @@ OpenZeppelin 项目结构图：
 
 ### 2.2 Truffle框架
 
+下面数据来自git
+|角度|人气|
+|:--|:--|
+|fork人数|926|
+|star人数|6990|
+|Watch人数|336|
+|contributors人数|77|
+|release数|102|
+|commits|3283|
+
 Truffle是一个世界级的开发环境，测试框架，以太坊的资源管理通道，致力于让以太坊上的开发变得简单，Truffle有以下特点：
 * 内置的智能合约编译，链接，部署和二进制文件的管理
 * 快速开发下的自动合约测试
@@ -123,6 +133,16 @@ https://github.com/trufflesuite/drizzle
 ### 2.3 Embark框架
 Embark 让开发者开发和部署以太坊dapp更容易，Embark当前集成了EVM区块链、去中心化存储IPFS、去中心化通信平台（Whisper和Orbit），支持swarm部署。
 Embark框架链接 https://github.com/embark-framework/embark
+
+下面数据来自git
+|角度|人气|
+|:--|:--|
+|fork人数|344|
+|star人数|2375|
+|Watch人数|141|
+|contributors人数|45|
+|release数|92|
+|commits|3587|
 
 Embark框架特点
 
