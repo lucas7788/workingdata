@@ -52,6 +52,15 @@ Mist 浏览器界面：
 * Geth Geth除了实现Mist的全部功能，还包含一些额外的重要特性，例如提供RPC API接口给应用程序以便你的应用可以通过它连接如以太坊网络。
 * Parity Parity是一个用Rust开发的以太坊节点软件，开发者是前以太坊CTO：Gavin Wood博士。Parity 的特点就是速度块、轻量化。Parity 还在本机的8080 端口提供了一个Web界面供你访问。
 * MetaMask Chrome浏览器插件可以极大简化对你的DApp（去中心化应用：Decentralized Application）的访问
+metamask 主界面
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask2.png)
+
+metamask add Token界面
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask.png)
+
+metamask 点击交易记录跳转的页面
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask.png)
+
 * Web3.js  Web3.js是web应用和区块链交互的桥梁
 * Truffle 提供了快速创建、编译、部署和测试区块链应用的构建模块
 * Solc 是以太坊智能合约编译器，可以把合约代码编译成以太坊字节码
@@ -87,10 +96,16 @@ testrpc 运行界面图：
 适用于正式发布的客户端:
 * Geth (go-ethereum)
 * WebThree(cpp-ethereum)
-#### ganache-cli
+#### ganache
 Ganache是一个运行在个人桌面上的以太坊开发者的个人区块链。Ganache是Truffle Suite的一部分，通过把合约和交易放到前面来简化dapp的开发。通过使用Ganache，你可以快速的看到你的应用是如何影响区块链的。其中细节：如你的账户、余额、合约及Gas成本。你也可以调整Ganache的采矿控制来更好的适用你的应用。
+
+详情请见：
+https://truffleframework.com/ganache
+
 #### box
 Truffle 的盒子Boxs装有很多非常实用的项目样板，可以让你忽略一些环境配置问题，从而可以集中与开发你自己的DApp的业务唯一性。除此之外，Truffle Boxes能够容纳其他有用的组件、Solidity合约或者库，前后端视图等等。所有这些都是一个完整的实例Dapp程序。都可以下载下来逐一研究，寻找适合自己公司目前业务模型的组件。
+truffle box案例：
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/truffle1.jpg)
 
 ### drizzle
 Drizzle是前端库的集合，使得编写dapp前端更容易，更可预测。 Drizzle的核心是基于Redux商店，因此您可以访问Redux周围的壮观开发工具。 我们负责同步您的合同数据，交易数据等。
