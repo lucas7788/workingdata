@@ -35,9 +35,23 @@
 ## 2. 以太坊dapp开发工具
 
 ### 2.1 以太坊开发工具
+
 * Mist Mist的功能包括保存以太币、发送交易、部署合约等。你可以用它实现与区块链平台或测试网络
 的交互。当你需要进行快速交易时超级有用
-Mist 主界面:
+* Geth Geth除了实现Mist的全部功能，还包含一些额外的重要特性，例如提供RPC API接口给应用程序以便你的应用可以通过它连接如以太坊网络。
+* Parity Parity是一个用Rust开发的以太坊节点软件，开发者是前以太坊CTO：Gavin Wood博士。Parity 的特点就是速度块、轻量化。Parity 还在本机的8080 端口提供了一个Web界面供你访问。
+* MetaMask Chrome浏览器插件可以极大简化对你的DApp（去中心化应用：Decentralized Application）的访问
+* Web3.js  Web3.js是web应用和区块链交互的桥梁
+* Truffle 提供了快速创建、编译、部署和测试区块链应用的构建模块
+* Solc 是以太坊智能合约编译器，可以把合约代码编译成以太坊字节码
+* Solium solidity代码静态分析器，可以帮助开发者规范代码并发现安全隐患
+* ether.camp 微软提供的在线全功能solidity集成开发环境
+* BlockApps BlockApps提供了一些简洁的API来帮助你查看钱包余额、编写交易、读取合约状态等
+* Embark Embark是另一个流行的开发框架，帮你轻松地构建、测试和部署DApp
+* Zeppelin Zeppelin库用来编写安全的合约(类似于Java中的jar包，在合约中可以引入智能合约语言开发的工具库)
+
+#### Mist介绍
+Mist 主界面
 
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/Mist1.jpg)
 
@@ -49,9 +63,7 @@ Mist 浏览器界面：
 
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/Mist3.png)
 
-* Geth Geth除了实现Mist的全部功能，还包含一些额外的重要特性，例如提供RPC API接口给应用程序以便你的应用可以通过它连接如以太坊网络。
-* Parity Parity是一个用Rust开发的以太坊节点软件，开发者是前以太坊CTO：Gavin Wood博士。Parity 的特点就是速度块、轻量化。Parity 还在本机的8080 端口提供了一个Web界面供你访问。
-* MetaMask Chrome浏览器插件可以极大简化对你的DApp（去中心化应用：Decentralized Application）的访问
+#### MetaMask介绍
 metamask 主界面
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask2.jpg)
 
@@ -61,14 +73,8 @@ metamask add Token界面
 metamask 点击交易记录跳转的页面
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask3.jpg)
 
-* Web3.js  Web3.js是web应用和区块链交互的桥梁
-* Truffle 提供了快速创建、编译、部署和测试区块链应用的构建模块
-* Solc 是以太坊智能合约编译器，可以把合约代码编译成以太坊字节码
-* Solium solidity代码静态分析器，可以帮助开发者规范代码并发现安全隐患
-* ether.camp 微软提供的在线全功能solidity集成开发环境
-* BlockApps BlockApps提供了一些简洁的API来帮助你查看钱包余额、编写交易、读取合约状态等
-* Embark Embark是另一个流行的开发框架，帮你轻松地构建、测试和部署DApp
-* Zeppelin Zeppelin库用来编写安全的合约(类似于Java中的jar包，在合约中可以引入智能合约语言开发的工具库)
+#### OpenZeppelin库介绍
+
 OpenZeppelin 项目结构图：
 
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/zeppelin.jpg)
@@ -179,7 +185,7 @@ Remix IDE：
 
 
 ## 3. 以太坊dapp
-### 以太坊dapp基本信息：
+### 以太坊dapp基本信息
 * dapp总数: 775，游戏类411,占比54%，竞猜类共152个，占比20%，交易市场占比4%，其他占比22%
 * dapp占比图
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/dapp.jpg)
@@ -213,5 +219,7 @@ Remix IDE：
 
 ## 5. 参考：
 https://github.com/ethereum
+
 http://www.wanbizu.com/xinbi/201503284872.html
+
 https://www.jianshu.com/p/53fcdd255ef7
