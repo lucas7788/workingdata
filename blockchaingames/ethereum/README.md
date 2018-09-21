@@ -52,14 +52,31 @@
 
 #### Mist介绍
 Mist 主界面
+1. 账户概览
+
+2. 浏览器
+
+3. 钱包
+
+4. 合约信息
 
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/Mist1.jpg)
 
 Mist 开发界面：
+集成了remix IDE开发工具
+可以显示日志文件
+以太坊节点
+网络配置等信息
 
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/Mist2.png)
 
 Mist 浏览器界面：
+
+1. 提供dapp活跃度排名信息
+
+2. dapp分类信息查询
+
+3. 提供统计数据
 
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/Mist3.png)
 
@@ -68,9 +85,12 @@ metamask 主界面
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask2.jpg)
 
 metamask add Token界面
+目前ontology的chrome插件还不支持该功能
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask.png)
 
 metamask 点击交易记录跳转的页面
+以太坊浏览器查询界面，交易记录显示的很详细，
+
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask3.jpg)
 
 #### OpenZeppelin库介绍
@@ -131,7 +151,9 @@ testrpc 运行界面图：
 适用于正式发布的客户端:
 * Geth (go-ethereum)
 * WebThree(cpp-ethereum)
+
 #### ganache
+
 Ganache是一个运行在个人桌面上的以太坊开发者的个人区块链。Ganache是Truffle Suite的一部分，通过把合约和交易放到前面来简化dapp的开发。通过使用Ganache，你可以快速的看到你的应用是如何影响区块链的。其中细节：如你的账户、余额、合约及Gas成本。你也可以调整Ganache的采矿控制来更好的适用你的应用。
 
 详情请见：
@@ -218,6 +240,7 @@ Remix IDE：
 
 ### 社区活跃度问题
 ontology代码贡献者仅有42人，没有激发社区开发的力量参与进来，
+dapp开发工具也需要社区的力量来推动
 ### ontology dapp开发工具问题
 
 建议推出一个类似于truffle的dapp开发框架，最好拥有的功能是：
