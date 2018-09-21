@@ -220,6 +220,9 @@ embark 提供的图形化界面
 Remix IDE：
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/remix.jpg)
 
+* 左边一列是用文件夹的形式组织合约代码
+* 中间一列是合约源代码
+* 右边一列提供合约代码的编译、部署、运行、分析、调试等功能
 
 ## 3. 以太坊dapp
 ### 以太坊dapp基本信息
