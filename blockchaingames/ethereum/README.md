@@ -63,10 +63,10 @@ Mist 主界面
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/Mist1.jpg)
 
 Mist 开发界面：
-集成了remix IDE开发工具
-可以显示日志文件
-以太坊节点
-网络配置等信息
+1. 集成了remix IDE开发工具
+2. 可以显示日志文件
+3. 以太坊节点
+4. 网络配置等信息
 
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/Mist2.png)
 
