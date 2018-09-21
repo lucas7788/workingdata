@@ -81,11 +81,14 @@ Mist 浏览器界面：
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/Mist3.png)
 
 #### MetaMask介绍
+
 metamask 主界面
+
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask2.jpg)
 
 metamask add Token界面
 目前ontology的chrome插件还不支持该功能
+
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask.png)
 
 metamask 点击交易记录跳转的页面
