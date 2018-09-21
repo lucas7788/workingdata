@@ -83,10 +83,14 @@ Mist 浏览器界面：
 #### MetaMask介绍
 
 metamask 主界面
-
+1. 网络配置 (ontology 的chrome插件把这部分放到了设置里面)
+2. 账户地址
+3. 余额信息
+4. 交易记录
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask2.jpg)
 
 metamask add Token界面
+该部分会显示用户的ERC20Token余额信息
 目前ontology的chrome插件还不支持该功能
 
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask.png)
