@@ -87,6 +87,7 @@ metamask 主界面
 2. 账户地址
 3. 余额信息
 4. 交易记录
+
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask2.jpg)
 
 metamask add Token界面
@@ -108,6 +109,15 @@ OpenZeppelin 项目结构图：
 
 ### 2.2 Truffle框架
 
+Truffle是一个世界级的开发环境，测试框架，以太坊的资源管理通道，致力于让以太坊上的开发变得简单，Truffle有以下特点：
+* 内置的智能合约编译，链接，部署和二进制文件的管理
+* 快速开发下的自动合约测试
+* 脚本化的，可扩展的部署与发布框架
+* 部署到不同的公网或私网的网络环境管理功能
+* 使用EthPM&NPM提供的包管理，使用ERC190标准
+* 与合约直接通信的直接交互控制台（写完合约就可以命令行里验证了）
+* 可配的构建流程，支持紧密集成
+
 下面数据来自git
 
 |角度|人气|
@@ -118,15 +128,6 @@ OpenZeppelin 项目结构图：
 |contributors人数|77|
 |release数|102|
 |commits|3283|
-
-Truffle是一个世界级的开发环境，测试框架，以太坊的资源管理通道，致力于让以太坊上的开发变得简单，Truffle有以下特点：
-* 内置的智能合约编译，链接，部署和二进制文件的管理
-* 快速开发下的自动合约测试
-* 脚本化的，可扩展的部署与发布框架
-* 部署到不同的公网或私网的网络环境管理功能
-* 使用EthPM&NPM提供的包管理，使用ERC190标准
-* 与合约直接通信的直接交互控制台（写完合约就可以命令行里验证了）
-* 可配的构建流程，支持紧密集成
 
 truflle dapp项目结构图：
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/truffle2.jpg)
@@ -274,11 +275,6 @@ ontology 缺少像testrpc 和 ganache这样的启动链的工具，终端形式�
 2. smartx debug功能（亟待解决）
 3. smartx 可以增加类似于remix的代码分析功能
 4. 建议集成通信功能
-
-
-
-
-
 
 
 
