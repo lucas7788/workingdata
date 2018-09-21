@@ -101,6 +101,9 @@ Truffle是一个世界级的开发环境，测试框架，以太坊的资源管�
 * 与合约直接通信的直接交互控制台（写完合约就可以命令行里验证了）
 * 可配的构建流程，支持紧密集成
 
+truflle dapp项目结构图：
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/truffle2.jpg)
+
 #### truffle客户端
 
 适用于开发的客户端:
@@ -200,7 +203,6 @@ Remix IDE：
 * 其他: Kyber,Ox协议，Livepeer,以太坊域名服务
 
 ## 4. 总结
-
 
 ### 社区活跃度问题
 ontology代码贡献者仅有42人，没有激发社区开发的力量参与进来，
