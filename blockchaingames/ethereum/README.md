@@ -241,11 +241,28 @@ Remix IDE：
 * 累计交易金额: 59亿ETH
 * 用户数: 3587万人
 * 日均活跃人数: 20万人
+
 ### dapp分类
 * 游戏类: 以太小精灵，加密猫，
 * 交易市场类: IDEX,Delta,Bancor,PoWH 3D
 * 竞猜类: Fomo3D，FairDapp, Zethr
 * 其他: Kyber,Ox协议，Livepeer,以太坊域名服务
+
+### 比较火的dapp
+#### 加密猫（游戏类）
+
+应用原理：非同质代币ERC721标准(目前ontology还不支持)
+另外还有非同质代币ERC875标准该标准支持一次买卖中只需要一次交易，也就只需要支付一次gas(通过magiclink的方式，实现了原子交易)
+网址：https://www.cryptokitties.co/
+
+#### 以德交易所（交易市场类）
+基于以太坊的去中心化的交易所
+实现数字资产的托管、交易、撮合、结算一体化功能
+网址：https://etherdelta.com/
+
+### Fomo3D (竞猜类)
+
+
 
 ## 4. 总结
 
@@ -279,8 +296,6 @@ ontology 缺少像testrpc 和 ganache这样的启动链的工具，终端形式�
 4. 建议集成通信功能(开发者通信或者数据交换功能)
 
 智能合约相关的库类似于Zeppelin功能
-
-
 
 ## 5. 参考：
 https://github.com/ethereum
