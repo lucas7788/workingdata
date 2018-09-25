@@ -261,7 +261,9 @@ Remix IDE：
 网址：https://etherdelta.com/
 
 ### Fomo3D (竞猜类)
+基于以太坊的乐透游戏，合约代码逻辑公开，没有人能够控制游戏的进程
 
+网址 https://exitscam.me/
 
 
 ## 4. 总结
