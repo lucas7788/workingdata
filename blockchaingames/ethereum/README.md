@@ -70,7 +70,7 @@ Mist 开发界面：
 
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/Mist2.png)
 
-Mist 浏览器界面：
+Mist 浏览器界面：(ontology的owallet还没有该功能)
 
 1. 提供dapp活跃度排名信息
 
@@ -162,16 +162,33 @@ testrpc 运行界面图：
 * Geth (go-ethereum)
 * WebThree(cpp-ethereum)
 
-#### ganache
+#### ganache（ontology目前没有这样的工具）
 
 Ganache是一个运行在个人桌面上的以太坊开发者的个人区块链。Ganache是Truffle Suite的一部分，通过把合约和交易放到前面来简化dapp的开发。通过使用Ganache，你可以快速的看到你的应用是如何影响区块链的。其中细节：如你的账户、余额、合约及Gas成本。你也可以调整Ganache的采矿控制来更好的适用你的应用。
 
+ganache 主界面
+
+可以看到账户地址，余额，交易数，以及以太坊网络的基本信息
+
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/ganache1.jpg)
+
+ganache Blocks界面
+
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/ganache2.png)
+
+ganache logs界面
+
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/ganache3.png)
+
 详情请见：
+
 https://truffleframework.com/ganache
 
 #### box
 Truffle 的盒子Boxs装有很多非常实用的项目样板，可以让你忽略一些环境配置问题，从而可以集中与开发你自己的DApp的业务唯一性。除此之外，Truffle Boxes能够容纳其他有用的组件、Solidity合约或者库，前后端视图等等。所有这些都是一个完整的实例Dapp程序。都可以下载下来逐一研究，寻找适合自己公司目前业务模型的组件。
+
 truffle box案例：
+
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/truffle1.jpg)
 
 ### drizzle
