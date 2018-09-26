@@ -80,6 +80,32 @@ Mist 浏览器界面：(ontology的owallet还没有该功能)
 
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/Mist3.png)
 
+
+#### parity介绍
+
+parity主界面
+
+该界面主要展示了parity支持的功能
+
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/parity1.png)
+
+节点信息界面
+
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/parity2.png)
+
+dapp 浏览器界面
+
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/parity3.png)
+
+web3 console界面
+
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/paritycli.png)
+
+交易队列界面
+
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/paritytxqueue.png)
+
+
 #### MetaMask介绍
 
 metamask 主界面
