@@ -301,8 +301,11 @@ Remix IDE：
 网址：https://www.cryptokitties.co/
 
 #### 以德交易所（交易市场类）
+
 基于以太坊的去中心化的交易所
+
 实现数字资产的托管、交易、撮合、结算一体化功能
+
 网址：https://etherdelta.com/
 
 #### Fomo3D (竞猜类)
@@ -338,6 +341,7 @@ dapp开发工具也需要社区的力量来推动
 3. dapp开发框架集成目前比较流行的js框架 比如：reactjs,vue.js等
 4. 应该提供dapp项目数据存储解决方案，IPFS或者数据库等
 5. 应该多提供dapp 案例demo，可以通过社区开发者的力量贡献demo
+6. 最好能提供parity类似的功能
 
 ### ontology chrome 钱包问题
 
@@ -355,7 +359,10 @@ ontology 缺少像testrpc 和 ganache这样的启动链的工具，终端形式�
 3. smartx 可以增加类似于remix的代码分析功能
 4. 建议集成通信功能(开发者通信或者数据交换功能)
 
-智能合约相关的库类似于Zeppelin功能
+### dapp demo问题
+
+1. 智能合约相关的库类似于Zeppelin功能
+2. dapp demo重点从游戏、竞猜类上提供样例，最好提供实现bancor的demo（需要ontology底层支持一些特殊的运算，平方、平方根等）
 
 ## 5. 参考：
 https://github.com/ethereum
