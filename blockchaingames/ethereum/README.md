@@ -91,7 +91,9 @@ metamask 主界面
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask2.jpg)
 
 metamask add Token界面
+
 该部分会显示用户的ERC20Token余额信息
+
 目前ontology的chrome插件还不支持该功能
 
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask.png)
@@ -278,8 +280,6 @@ Bancor Token
 2. 即时调整价格，算法自动调整价格
 3. 价格可预测，价格公式透明，
 4. 无spread, 也就是不需要传统的做市商，使参与者收益
-
-
 
 ## 4. 总结
 
