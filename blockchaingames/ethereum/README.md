@@ -274,7 +274,7 @@ debug(develop:0xd7ff6d16...)>
 
 ### 2.3 Embark框架
 Embark 让开发者开发和部署以太坊dapp更容易，Embark当前集成了EVM区块链、去中心化存储IPFS、去中心化通信平台（Whisper和Orbit），支持swarm部署。
-Embark框架链接 https://github.com/embark-framework/embark
+[Embark框架链接](https://github.com/embark-framework/embark) 
 
 下面数据来自git
 
@@ -356,7 +356,7 @@ smartx IDE:
 
 另外还有非同质代币ERC875标准该标准支持一次买卖中只需要一次交易，也就只需要支付一次gas(通过magiclink的方式，实现了原子交易)
 
-网址：https://www.cryptokitties.co/
+[网址](https://www.cryptokitties.co/)
 
 #### 以德交易所（交易市场类）
 
@@ -364,7 +364,7 @@ smartx IDE:
 
 实现数字资产的托管、交易、撮合、结算一体化功能
 
-网址：https://etherdelta.com/
+[网址](https://etherdelta.com/)
 
 #### Fomo3D (竞猜类)
 
@@ -434,6 +434,7 @@ ontology 缺少像testrpc 和 ganache这样的启动链的工具，终端形式�
 4. ontology 目前还没有非同质代币的设计，希望可以增加类似的功能，并提供dapp demo
 
 ## 5. 参考：
+
 https://github.com/ethereum
 
 http://www.wanbizu.com/xinbi/201503284872.html
