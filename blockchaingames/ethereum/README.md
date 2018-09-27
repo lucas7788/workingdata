@@ -298,10 +298,13 @@ Remix IDE：
 * 其他: Kyber,Ox协议，Livepeer,以太坊域名服务
 
 ### 比较火的dapp
+
 #### 加密猫（游戏类）
 
 应用原理：非同质代币ERC721标准(目前ontology还不支持)
+
 另外还有非同质代币ERC875标准该标准支持一次买卖中只需要一次交易，也就只需要支付一次gas(通过magiclink的方式，实现了原子交易)
+
 网址：https://www.cryptokitties.co/
 
 #### 以德交易所（交易市场类）
@@ -326,7 +329,7 @@ oep4和nep5的缺点
 3. 有庄家控盘的可能
 
 Bancor Token
-1. 连续的流动性，不需要买房和卖方
+1. 连续的流动性，不需要买房和卖方(不需要上交易所即可实现流通性)
 2. 即时调整价格，算法自动调整价格
 3. 价格可预测，价格公式透明，
 4. 无spread, 也就是不需要传统的做市商，使参与者收益
@@ -334,8 +337,9 @@ Bancor Token
 ## 4. 总结
 
 ### 社区活跃度问题
-ontology代码贡献者仅有42人，没有激发社区开发的力量参与进来，
-dapp开发工具也需要社区的力量来推动
+
+1. ontology代码贡献者仅有42人，没有激发社区开发的力量参与进来，
+2. dapp开发工具也需要社区的力量来推动
 
 ### ontology dapp开发工具问题
 
@@ -349,8 +353,8 @@ dapp开发工具也需要社区的力量来推动
 
 ### ontology chrome 钱包问题
 
-目前的ontology chrome插件还不支持Token余额功能，以及Token交易记录查询等
-ontology chrome插件网络设置模块功能页面调整
+1. 目前的ontology chrome插件还不支持Token余额功能，以及Token交易记录查询等
+2. ontology chrome插件网络设置模块功能页面调整
 
 ### one blockchain 工具
 
@@ -368,6 +372,7 @@ ontology 缺少像testrpc 和 ganache这样的启动链的工具，终端形式�
 
 1. 智能合约相关的库类似于Zeppelin功能
 2. dapp demo重点从游戏、竞猜类上提供样例，最好提供实现bancor的demo（需要ontology底层支持一些特殊的运算，平方、平方根等）
+3. ontology链的数字身份应用的dapp demo
 
 ## 5. 参考：
 https://github.com/ethereum
