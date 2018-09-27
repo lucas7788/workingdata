@@ -322,6 +322,7 @@ Remix IDE:
 * 左边一列是用文件夹的形式组织合约代码
 * 中间一列是合约源代码
 * 右边一列提供合约代码的编译、部署、运行、分析、调试等功能
+*
 
 smartx IDE:
 
@@ -369,7 +370,10 @@ smartx IDE:
 
 基于以太坊的乐透游戏，合约代码逻辑公开，没有人能够控制游戏的进程
 
-网址 https://exitscam.me/
+玩法请见我的另一篇调研报告[FOMO调研报告](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/fomo3d/fomo3d.md)
+
+
+[网址](https://exitscam.me/)
 
 #### Bancor协议Token
 
@@ -411,7 +415,9 @@ Bancor Token
 ontology 缺少像testrpc 和 ganache这样的启动链的工具，终端形式或者图形化界面
 
 ### 智能合约开发
+
 智能合约IDE：
+
 目前smartx的功能还是比较有限
 1. smartx报错 余额不够问题（亟待解决）
 2. smartx debug功能（亟待解决）
@@ -425,6 +431,7 @@ ontology 缺少像testrpc 和 ganache这样的启动链的工具，终端形式�
 1. 智能合约相关的库类似于Zeppelin功能
 2. dapp demo重点从游戏、竞猜类上提供样例，最好提供实现bancor的demo（需要ontology底层支持一些特殊的运算，平方、平方根等）
 3. ontology链的数字身份应用的dapp demo
+4. ontology 目前还没有非同质代币的设计，希望可以增加类似的功能，并提供dapp demo
 
 ## 5. 参考：
 https://github.com/ethereum
