@@ -116,6 +116,10 @@ metamask 主界面
 
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/metamask2.jpg)
 
+和ontology的chrome主界面对比一下
+
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/chrome2.jpg)
+
 metamask add Token界面
 
 该部分会显示用户的ERC20Token余额信息
@@ -346,6 +350,7 @@ dapp开发工具也需要社区的力量来推动
 ### ontology chrome 钱包问题
 
 目前的ontology chrome插件还不支持Token余额功能，以及Token交易记录查询等
+ontology chrome插件网络设置模块功能页面调整
 
 ### one blockchain 工具
 
