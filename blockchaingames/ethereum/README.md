@@ -231,9 +231,9 @@ truffle box案例：
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/truffle1.jpg)
 
 ### drizzle
-Drizzle是前端库的集合，使得编写dapp前端更容易，更可预测。 Drizzle的核心是基于Redux商店，因此您可以访问Redux周围的壮观开发工具。 我们负责同步您的合同数据，交易数据等。
+Drizzle是前端库的集合，使得编写dapp前端更容易，更可预测。 Drizzle的核心是基于Redux store。 他可以同步您的合约数据，交易数据等。
 * drizzle 基于Redux store（前端的状态管理工具），可以很方便的同步合约中的数据、交易数据等
-* 封装web3，可以方便的使用web3中的方法
+* 封装web3js，可以方便的使用web3js中的方法
 * 方便和reducers、sagas集成
 * 封装流行的js库例如reactjs，方便合约数据的展示
 
