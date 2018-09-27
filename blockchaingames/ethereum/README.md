@@ -237,8 +237,7 @@ Drizzle是前端库的集合，使得编写dapp前端更容易，更可预测。
 * 方便和reducers、sagas集成
 * 封装流行的js库例如reactjs，方便合约数据的展示
 
-详情请见：
-https://github.com/trufflesuite/drizzle
+[详情请见](https://github.com/trufflesuite/drizzle)
 
 #### truffle黑科技之debug功能
 根据交易hash进行调试
@@ -274,7 +273,7 @@ debug(develop:0xd7ff6d16...)>
 
 ### 2.3 Embark框架
 Embark 让开发者开发和部署以太坊dapp更容易，Embark当前集成了EVM区块链、去中心化存储IPFS、去中心化通信平台（Whisper和Orbit），支持swarm部署。
-[Embark框架链接](https://github.com/embark-framework/embark) 
+[Embark框架链接](https://github.com/embark-framework/embark)
 
 下面数据来自git
 
