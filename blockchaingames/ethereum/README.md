@@ -230,7 +230,7 @@ truffle box案例：
 
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/truffle1.jpg)
 
-### drizzle
+#### drizzle
 Drizzle是前端库的集合，使得编写dapp前端更容易，更可预测。 Drizzle的核心是基于Redux store。 他可以同步您的合约数据，交易数据等。
 * drizzle 基于Redux store（前端的状态管理工具），可以很方便的同步合约中的数据、交易数据等
 * 封装web3js，可以方便的使用web3js中的方法
@@ -239,6 +239,38 @@ Drizzle是前端库的集合，使得编写dapp前端更容易，更可预测。
 
 详情请见：
 https://github.com/trufflesuite/drizzle
+
+#### truffle黑科技之debug功能
+根据交易hash进行调试
+
+用法：
+
+1. 进入truffle控制台
+2. debug 0xd7ff6d16d4c522f8837dd3fd4ae4d52d0d6243eb5e86a1064ea56d7937c2c27d
+3. 按enter单步执行
+
+效果图：
+
+```
+Store.sol | 0x345ca3e014aaf5dca488057592ee47305d9b3e10:
+
+1: pragma solidity ^0.4.0;
+2:
+3: contract SimpleStorage {
+   ^^^^^^^^^^^^^^^^^^^^^^^
+
+debug(develop:0xd7ff6d16...)>
+
+Store.sol | 0x345ca3e014aaf5dca488057592ee47305d9b3e10:
+
+4:   uint myVariable;
+5:
+6:   function set(uint x) {
+     ^^^^^^^^^^^^^^^^^^^^^
+
+debug(develop:0xd7ff6d16...)>
+```
+
 
 ### 2.3 Embark框架
 Embark 让开发者开发和部署以太坊dapp更容易，Embark当前集成了EVM区块链、去中心化存储IPFS、去中心化通信平台（Whisper和Orbit），支持swarm部署。
@@ -283,12 +315,18 @@ embark 提供的图形化界面
 
 ### 2.4 智能合约IDE
 
-Remix IDE：
+Remix IDE:
+
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/remix.jpg)
 
 * 左边一列是用文件夹的形式组织合约代码
 * 中间一列是合约源代码
 * 右边一列提供合约代码的编译、部署、运行、分析、调试等功能
+
+smartx IDE:
+
+![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/smartx.jpg)
+
 
 ## 3. 以太坊dapp
 ### 3.1 以太坊dapp基本信息
@@ -376,6 +414,8 @@ ontology 缺少像testrpc 和 ganache这样的启动链的工具，终端形式�
 2. smartx debug功能（亟待解决）
 3. smartx 可以增加类似于remix的代码分析功能
 4. 建议集成通信功能(开发者通信或者数据交换功能)
+5. smartx 组织合约代码的形式是不是可以优化（不明白为什么要将合约代码托管到中心化服务器上，而不是本地存储）
+6. 为什么smartx需要现有钱包才能使用
 
 ### dapp demo问题
 
