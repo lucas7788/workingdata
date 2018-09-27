@@ -6,6 +6,9 @@
    * [2.2 Truffle框架](#2.2Truffle框架)
    * [2.3 Embark框架](#2.3Embark框架)
 * [3. 以太坊dapp](#3.以太坊dapp)
+   * [3.1 以太坊dapp基本信息](#3.1以太坊dapp基本信息)
+   * [3.2 dapp分类](#3.2dapp分类)
+   * [3.3 比较火的dapp](#3.2比较火的dapp)
 * [4. 总结](#4.总结)
 * [5. 参考链接](#5.参考链接)
 
@@ -282,7 +285,7 @@ Remix IDE：
 * 右边一列提供合约代码的编译、部署、运行、分析、调试等功能
 
 ## 3. 以太坊dapp
-### 以太坊dapp基本信息
+### 3.1 以太坊dapp基本信息
 * dapp总数: 775，游戏类411,占比54%，竞猜类共152个，占比20%，交易市场占比4%，其他占比22%
 * dapp占比图
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/dapp.jpg)
@@ -291,13 +294,13 @@ Remix IDE：
 * 用户数: 3587万人
 * 日均活跃人数: 20万人
 
-### dapp分类
+### 3.2 dapp分类
 * 游戏类: 以太小精灵，加密猫，
 * 交易市场类: IDEX,Delta,Bancor,PoWH 3D
 * 竞猜类: Fomo3D，FairDapp, Zethr
 * 其他: Kyber,Ox协议，Livepeer,以太坊域名服务
 
-### 比较火的dapp
+### 3.3 比较火的dapp
 
 #### 加密猫（游戏类）
 
