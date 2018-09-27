@@ -327,6 +327,9 @@ smartx IDE:
 
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/blockchaingames/ethereum/smartx.jpg)
 
+* smartx 无debug功能
+* smartx 无编译器版本选择窗口
+* smartx 无代码分析功能
 
 ## 3. 以太坊dapp
 ### 3.1 以太坊dapp基本信息
