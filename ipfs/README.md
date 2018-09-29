@@ -145,3 +145,58 @@ ipfs name publish [--resolve=false] [--lifetime=<lifetime> | -t] [--ttl=<ttl>] [
 ![avatar](https://github.com/lucas7788/workingdata/blob/master/ipfs/picture/ipfsns3.jpg)
 
 ## ipfs搭建私网
+1. ipfs初始化
+```
+ipfs init
+```
+执行完成后会生成.ipfs的文件夹
+
+2. 生成共享key
+因为我们要组建的是私有网络，所有节点需要使用相同的私有key来加入网络中，我们使用go-ipfs-swarm-key-gen工具来生成共享key
+```
+#编译工具
+go get github.com/Kubuxu/go-ipfs-swarm-key-gen
+cd $GOPATH
+cd src/github.com/Kubuxu/go-ipfs-swarm-key-gen/ipfs-swarm-key-gen/
+go build
+# 生成key
+./ipfs-swarm-key-gen > /root/.ipfs/swarm.key
+```
+
+将生成的swarm.key拷贝到另一台机器的.ipfs目录
+
+注意： 私网的所有节点的.ipfs文件夹下面都要拷贝一份swarm.key
+3. 移除默认的boostrap节点
+```
+# ipfs bootstrap rm --all
+```
+
+4. 启动服务
+首先启动一个节点
+```
+ipfs daemon
+```
+我们的私有网络中已经有了第一个ipfs节点，现在需要将第二个节点加入网络中，在启动第二个节点的服务前，需要先将第一个启动节点的信息作为作为第二个节点的boostrap的信息
+
+```
+# 添加boostrap信息
+ipfs bootstrap add /ip4/192.168.1.63/tcp/4001/ipfs/QmTks2mpdcTJnaLLtjGkyqPWxuMy6WvZbDzkG6XTGRfYA3
+
+# 然后启动该节点
+ipfs daemon
+```
+
+![avatar](https://github.com/lucas7788/workingdata/blob/master/ipfs/picture/ipfssiwang.jpg)
+
+至此私网搭建成功
+
+4 测试
+在其中一个节点上添加文件到ipfs网络,会产生文件id
+```
+ipfs add file.txt
+```
+
+在另一个节点上查询
+```
+ipfs cat 文件id
+```
