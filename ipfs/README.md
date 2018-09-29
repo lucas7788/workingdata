@@ -1,9 +1,9 @@
 # IPFS
 
-* [ipfs介绍](ipfs介绍)
-* [ipfs安装](ipfs安装)
-* [ipfs使用](ipfs使用)
-* [ipfs搭建私网](ipfs搭建私网)
+* [ipfs介绍](#ipfs介绍)
+* [ipfs安装](#ipfs安装)
+* [ipfs使用](#ipfs使用)
+* [ipfs搭建私网](#ipfs搭建私网)
 
 ## ipfs介绍
 
@@ -15,7 +15,7 @@ IPFS是通用目的的基础架构，基本没有存储上的限制。大文件�
 
 IPFS提供了一个友好的WEB访问接口，用户可通过 http://ipfs.io/hash  获取IPFS网络中的内容，也许在不久的将来，IPFS协议将会彻底替代传统的HTTP协议。
 
-## ipfs 安装
+## ipfs安装
 
 [ipfs git地址](https://github.com/ipfs)
 
