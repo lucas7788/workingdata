@@ -17,22 +17,31 @@ IPFS can run on most Linux, macOS, and Windows systems. We recommend running it 
 
 [go-ipfs下载地址](https://github.com/ipfs/go-ipfs/releases)
 
-安装好后执行ipfs
-
 ## ipfs使用
-1. 在本地建立一个IPFS节点
+1. ipfs 基本命令
+
+![avatar](https://github.com/lucas7788/workingdata/blob/master/ipfs/picture/ipfs1.jpg)
+
+2. 在本地建立一个IPFS节点
 ```
 ipfs init
 ```
-2. 启动ipfs服务
+
+![avatar](https://github.com/lucas7788/workingdata/blob/master/ipfs/picture/ipfsinit.jpg)
+
+3. 启动ipfs服务
 ```
 ipfs daemon
 ```
-3. 查看节点信息
+![avatar](https://github.com/lucas7788/workingdata/blob/master/ipfs/picture/ipfs2.jpg)
+
+4. 查看节点信息
 ```
 ipfs id
 ```
-4. ipfs跨域资源共享CORS配置
+![avatar](https://github.com/lucas7788/workingdata/blob/master/ipfs/picture/ipfs3.jpg)
+
+5. ipfs跨域资源共享CORS配置
 
 当使用ipfs上传数据添加的时候，会发生拒绝访问的错误，必须要进行跨域的配置才可以。
 
@@ -63,16 +72,20 @@ ipfs config --json API.HTTPHeaders.Access-Control-Allow-Headers "[\"Authorizatio
 
 ipfs config --json API.HTTPHeaders.Access-Control-Expose-Headers "[\"Location\"]"
 ```
-5. 跨域配置好后，启动ipfs
+6. 跨域配置好后，启动ipfs
 ```
 ipfs daemon
 ```
 然后点击 http://localhost:5001/webui 查看官方ipfs webui例子
 
-6. 使用ipfs新增文件
+![avatar](https://github.com/lucas7788/workingdata/blob/master/ipfs/picture/ipfszhuye.jpg)
+
+7. 使用ipfs新增文件
 ```
 ipfs add file.txt
 ```
+
+![avatar](https://github.com/lucas7788/workingdata/blob/master/ipfs/picture/ipfsadd.jpg)
 
 ipfs 查看新增加的文件
 ```
@@ -84,9 +97,41 @@ ipfs cat 文件hash
 http://localhost:8080/ipfs/文件hash
 ```
 
-7. ipns
+![avatar](https://github.com/lucas7788/workingdata/blob/master/ipfs/picture/ipfsadd2.jpg)
+
+8. ipns
+
 什么是ipns呢，ipns又有什么作用呢。我们应该知道，本地通过ipfs daemon创建的节点是唯一的，但是我们的文件只要内容改变了就会产生不同的hash，ipns的作用就是将内容和本地的节点绑定，这样更新内容的时候我们就可以绑定本地节点，然后通过ipns+本地的节点来访问网站了，网站的网址也不用随着文件内容改变而改变了 那么怎么绑定：
 
 ```
 ipfs name publish 你的上传的文件的hash
 ```
+在网页中访问的方法
+```
+http://localhost:8080/ipns/节点id/
+```
+
+![avatar](https://github.com/lucas7788/workingdata/blob/master/ipfs/picture/ipfsns.jpg)
+
+由于节点id是唯一的，如何实现多个保留多个这样的映射
+
+其实ipns的映射关系除了节点ID<->文件内容，还有一种是key<->文件内容
+![avatar](https://github.com/lucas7788/workingdata/blob/master/ipfs/picture/ipfskey.jpg)
+
+可以看到，节点默认具有一个名为self的key，它的值正是节点ID。
+
+而在ipfs name publish命令的完整形式是
+```
+ipfs name publish [--resolve=false] [--lifetime=<lifetime> | -t] [--ttl=<ttl>] [--key=<key> | -k] [--] <ipfs-path>
+```
+注意其中的key，如果不带这个参数，那么久表示使用默认的key,　也就是节点ID。
+
+可以使用`ipfs key gen`创建新的key，这里创建一个名为another的key
+
+![avatar](https://github.com/lucas7788/workingdata/blob/master/ipfs/picture/ipfskey2.jpg)
+
+尝试用新的key，映射一个ipfs文件内容
+![avatar](https://github.com/lucas7788/workingdata/blob/master/ipfs/picture/ipfskey3.jpg)
+
+通过网页访问
+![avatar](https://github.com/lucas7788/workingdata/blob/master/ipfs/picture/ipfsns3.jpg)
