@@ -18,3 +18,13 @@ ipfs daemon
 ```
 
 4. 运行test.py
+
+5. 参考api
+
+[py-ipfs-api github地址](https://github.com/ipfs/py-ipfs-api)
+
+api官网打不开
+[py-ipfs-api](https://ipfs.io/ipns/QmZ86ow1byeyhNRJEatWxGPJKcnQKG7s51MtbHdxxUddTH/Software/Python/ipfsapi/)
+
+接口可以看源代码
+[client.py](https://github.com/ipfs/py-ipfs-api/blob/master/ipfsapi/client.py)
