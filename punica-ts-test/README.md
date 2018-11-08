@@ -11,58 +11,58 @@ punica invoke 没有list子命令
 punica invoke --function functionName 执行成功
 punica-ts invoke --function functionName 执行失败
 失败截图：
-![avatar](../pic/question5.jpg)
+![avatar](./pic/question5.jpg)
 default-config配置截图
-![avatar](../pic/question5a.jpg)
+![avatar](./pic/question5a.jpg)
 
 ##问题6
 asset transfer 交易 只打出了交易hash 没说明交易是否成功
-![avatar](../pic/asset_transfer.jpg)
+![avatar](./pic/asset_transfer.jpg)
 
 ## 问题7
 punica-ts wallet asset withdrawOng
 必须指定钱包文件
-![avatar](../pic/asset_withdrawOng.jpg)
+![avatar](./pic/asset_withdrawOng.jpg)
 
 ## 问题8
 punica-ts wallet ontid delete
 提示信息有误
-![avatar](../pic/ontid_delete.jpg)
+![avatar](./pic/ontid_delete.jpg)
 执行报错
-![avatar](../pic/ontid_delete2.jpg)
+![avatar](./pic/ontid_delete2.jpg)
 
 ## 问题9
 punica-ts unbox
 提示信息有误
-![avatar](../pic/unbox.jpg)
+![avatar](./pic/unbox.jpg)
 
 ## 问题10
 提示信息有误
-![avatar](../pic/deploy.jpg)
+![avatar](./pic/deploy.jpg)
 
 # punica-ts wallet account 测试结果
 
 ## punica-ts asset
-![avatar](../pic/account_add.jpg)
-![avatar](../pic/account_list.jpg)
-![avatar](../pic/account_delete.jpg)
-![avatar](../pic/account_import.jpg)
+![avatar](./pic/account_add.jpg)
+![avatar](./pic/account_list.jpg)
+![avatar](./pic/account_delete.jpg)
+![avatar](./pic/account_import.jpg)
 
 ## punica-ts wallet asset
-![avatar](../pic/asset_balanceOf.jpg)
-![avatar](../pic/asset_unbound.jpg)
+![avatar](./pic/asset_balanceOf.jpg)
+![avatar](./pic/asset_unbound.jpg)
 
 ## punica-ts wallet ontid
-![avatar](../pic/ontid_list.jpg)
-![avatar](../pic/ontid_add.jpg)
+![avatar](./pic/ontid_list.jpg)
+![avatar](./pic/ontid_add.jpg)
 
 ## punica-ts init
-![avatar](../pic/init.jpg)
+![avatar](./pic/init.jpg)
 
 ## punica-ts unbox --box_name tutorialToken
-![avatar](../pic/unbox.jpg)
+![avatar](./pic/unbox.jpg)
 
 ## punica-ts compile
-![avatar](../pic/compile.jpg)
+![avatar](./pic/compile.jpg)
 ## punica-ts compile
-![avatar](../pic/smartx.jpg)
+![avatar](./pic/smartx.jpg)
