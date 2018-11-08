@@ -7,15 +7,15 @@
 
 文档中没有说明源码编译安装的操作步骤
 
-##问题3
+## 问题3
 
 文档中没有说明安装失败的解决方案
 
-##问题4
+## 问题4
 
 punica invoke 没有list子命令
 
-##问题5
+## 问题5
 
 punica invoke --function functionName 执行成功
 
@@ -26,7 +26,7 @@ punica-ts invoke --function functionName 执行失败
 default-config配置截图
 ![avatar](./pic/question5a.jpg)
 
-##问题6
+## 问题6
 
 asset transfer 交易 只打出了交易hash 没说明交易是否成功
 ![avatar](./pic/asset_transfer.jpg)
