@@ -57,6 +57,22 @@ punica-ts unbox
 提示信息有误
 ![avatar](./pic/deploy.jpg)
 
+## 问题11
+
+list命令应该是 invoke命令的子命令表明列出invoke可以调用的函数
+
+函数名显示不好看，应该有空格
+
+![avatar](./pic/list.jpg)
+
+## 问题12
+
+执行报错
+![avatar](./pic/test_template.jpg)
+
+![avatar](./pic/test_template2.jpg)
+
+
 # punica-ts wallet account 测试结果
 
 ## punica-ts asset
