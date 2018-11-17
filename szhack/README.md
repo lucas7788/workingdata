@@ -24,3 +24,5 @@
 10. smartx访问本地节点，IP地址不要端口号的，几乎所有的开发者都会遇到这个问题
 
 11. dApi 存在 chrome is not defined 的错误
+
+12. smartx 编译的pyhton合约和c#合约  生成的abi文件结构不一样。python合约编译生成的abi文件abi对应的值少了hash，和entryentrypoint
