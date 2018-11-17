@@ -22,3 +22,5 @@
 新建了rpcclient,无法访问getblockcount, getblockheight等API
 
 10. smartx访问本地节点，IP地址不要端口号的，几乎所有的开发者都会遇到这个问题
+
+11. dApi 存在 chrome is not defined 的错误
