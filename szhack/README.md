@@ -9,20 +9,18 @@
 
 4. 开发者对钱包有惯性思维，不是很清楚ontid的概念。不知道ontid可以做啥。
 
-5. 合约demo示例代码，没有在https://github.com/ontio,也没有在https://github.com/ontio-community目录下，导致找合约例子不方便。目前是在个人仓库下，需要及时发布到官方github目录下。
+7. crynao mac上偶尔会出现卡死的情况
 
-6. crynao mac上偶尔会出现卡死的情况
+8. smartx number是正序的应该改成反序
 
-7. smartx number是正序的应该改成反序
+9. solo chain 在Windows平台不稳定
 
-8. solo chain 在Windows平台不稳定
-
-9. TSSDK访问ontology本地节点的问题
+10. TSSDK访问ontology本地节点的问题
 
 新建了rpcclient,无法访问getblockcount, getblockheight等API
 
-10. smartx访问本地节点，IP地址不要端口号的，几乎所有的开发者都会遇到这个问题
+11. smartx访问本地节点，IP地址不要端口号的，几乎所有的开发者都会遇到这个问题
 
-11. dApi 存在 chrome is not defined 的错误
+12. dApi 存在 chrome is not defined 的错误
 
-12. smartx 编译的pyhton合约和c#合约  生成的abi文件结构不一样。python合约编译生成的abi文件abi对应的值少了hash，和entryentrypoint
+13. smartx 编译的pyhton合约和c#合约  生成的abi文件结构不一样。python合约编译生成的abi文件abi对应的值少了hash，和entryentrypoint
