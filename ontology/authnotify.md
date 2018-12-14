@@ -23,7 +23,7 @@ Notify格式
     {
       "ContractAddress": "0600000000000000000000000000000000000000",
       "States":[
-        "方法名",
+        "initContractAdmin",//方法名
         "调用者地址",
         "管理员ontid"
       ]
