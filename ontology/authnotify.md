@@ -14,7 +14,7 @@
 
 Notify格式
 
-```json
+```
 {
   "TxHash":"",
   "State":1,
