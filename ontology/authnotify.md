@@ -9,6 +9,7 @@
 |Notify|Notify事件|
 
 * InitContractAdmin
+
 初始化管理员信息
 
 Notify格式
