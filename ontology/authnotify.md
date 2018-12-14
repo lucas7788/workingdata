@@ -24,17 +24,17 @@ Notify格式
       "ContractAddress": "0600000000000000000000000000000000000000",
       "States":[
         "initContractAdmin",//方法名
-        "调用者地址",
-        "管理员ontid"
+        "ea1e2adf8c19f5a7e877860264ebf326e8c3aa5a",//调用者合约地址
+        "did:ont:AbPRaepcpBAFHz9zCj4619qch4Aq5hJARA"//管理员ontid
       ]
     },
     {
       "ContractAddress": "0200000000000000000000000000000000000000",
       "States":[
-        "方法名",
-        "调用者地址",
-        "手续费接收地址",
-        "数量"
+        "transfer", //方法名
+        "AbPRaepcpBAFHz9zCj4619qch4Aq5hJARA",//调用者合约地址
+        "AFmseVrdL9f9oyCzZefL9tG6UbviEH9ugK",//手续费接收地址
+        10000000 //支付的手续费数量，精度是9
       ]
     }
   ]
@@ -47,7 +47,7 @@ Notify格式
 
 Notify格式
 
-```json
+```
 {
   "TxHash":"",
   "State":1,
@@ -56,18 +56,155 @@ Notify格式
     {
       "ContractAddress": "0600000000000000000000000000000000000000",
       "States":[
-        "方法名",
-        "合约地址",
-        "成功或失败"
+        "transfer",//方法名
+        "ea1e2adf8c19f5a7e877860264ebf326e8c3aa5a",//合约地址
+        true //执行结果，true表示成功，false表示失败
       ]
     },
     {
       "ContractAddress": "0200000000000000000000000000000000000000",
       "States":[
-        "方法名",
-        "调用者地址",
-        "手续费接收地址",
-        "数量"
+        "transfer", //方法名
+        "AbPRaepcpBAFHz9zCj4619qch4Aq5hJARA",//调用者合约地址
+        "AFmseVrdL9f9oyCzZefL9tG6UbviEH9ugK",//手续费接收地址
+        10000000 //支付的手续费数量，精度是9
+      ]
+    }
+  ]
+}
+```
+
+
+* AssignFuncsToRole
+
+分配函数到角色
+
+Notify格式
+
+```
+{
+  "TxHash":"",
+  "State":1,
+  "GasConsumed":10000000,
+  "Notify":[
+    {
+      "ContractAddress": "0600000000000000000000000000000000000000",
+      "States":[
+        "assignFuncsToRole",//方法名
+        "ea1e2adf8c19f5a7e877860264ebf326e8c3aa5a",//合约地址
+        true //执行结果，true表示成功，false表示失败
+      ]
+    },
+    {
+      "ContractAddress": "0200000000000000000000000000000000000000",
+      "States":[
+        "transfer", //方法名
+        "AbPRaepcpBAFHz9zCj4619qch4Aq5hJARA",//调用者合约地址
+        "AFmseVrdL9f9oyCzZefL9tG6UbviEH9ugK",//手续费接收地址
+        10000000 //支付的手续费数量，精度是9
+      ]
+    }
+  ]
+}
+```
+
+* AssignOntIDsToRole
+
+分配角色给ontid
+
+Notify格式
+
+```
+{
+  "TxHash":"",
+  "State":1,
+  "GasConsumed":10000000,
+  "Notify":[
+    {
+      "ContractAddress": "0600000000000000000000000000000000000000",
+      "States":[
+        "assignOntIDsToRole",//方法名
+        "ea1e2adf8c19f5a7e877860264ebf326e8c3aa5a",//合约地址
+        true //执行结果，true表示成功，false表示失败
+      ]
+    },
+    {
+      "ContractAddress": "0200000000000000000000000000000000000000",
+      "States":[
+        "transfer", //方法名
+        "AbPRaepcpBAFHz9zCj4619qch4Aq5hJARA",//调用者合约地址
+        "AFmseVrdL9f9oyCzZefL9tG6UbviEH9ugK",//手续费接收地址
+        10000000 //支付的手续费数量，精度是9
+      ]
+    }
+  ]
+}
+```
+
+* Delegate
+
+将权限委托给ontid
+
+Notify格式
+
+```
+{
+  "TxHash":"",
+  "State":1,
+  "GasConsumed":10000000,
+  "Notify":[
+    {
+      "ContractAddress": "0600000000000000000000000000000000000000",
+      "States":[
+        "delegate",//方法名
+        "ea1e2adf8c19f5a7e877860264ebf326e8c3aa5a",//合约地址
+        "did:ont:AbPRaepcpBAFHz9zCj4619qch4Aq5hJARA", //from ontid
+        "did:ont:AbPRaepcpBAFHz9zCj4619qch4Aq5hJARA",//to ontid
+        true //执行结果，true表示成功，false表示失败
+      ]
+    },
+    {
+      "ContractAddress": "0200000000000000000000000000000000000000",
+      "States":[
+        "transfer", //方法名
+        "AbPRaepcpBAFHz9zCj4619qch4Aq5hJARA",//调用者合约地址
+        "AFmseVrdL9f9oyCzZefL9tG6UbviEH9ugK",//手续费接收地址
+        10000000 //支付的手续费数量，精度是9
+      ]
+    }
+  ]
+}
+```
+
+* Withdraw
+
+撤回委托的权限
+
+Notify格式
+
+```
+{
+  "TxHash":"",
+  "State":1,
+  "GasConsumed":10000000,
+  "Notify":[
+    {
+      "ContractAddress": "0600000000000000000000000000000000000000",
+      "States":[
+        "withdraw",//方法名
+        "ea1e2adf8c19f5a7e877860264ebf326e8c3aa5a",//合约地址
+        "did:ont:AbPRaepcpBAFHz9zCj4619qch4Aq5hJARA", //委托者ontid
+        "did:ont:AbPRaepcpBAFHz9zCj4619qch4Aq5hJARA",//代理人ontid
+        true //执行结果，true表示成功，false表示失败
+      ]
+    },
+    {
+      "ContractAddress": "0200000000000000000000000000000000000000",
+      "States":[
+        "transfer", //方法名
+        "AbPRaepcpBAFHz9zCj4619qch4Aq5hJARA",//调用者合约地址
+        "AFmseVrdL9f9oyCzZefL9tG6UbviEH9ugK",//手续费接收地址
+        10000000 //支付的手续费数量，精度是9
       ]
     }
   ]
